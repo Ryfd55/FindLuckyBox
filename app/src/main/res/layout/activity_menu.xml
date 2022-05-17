@@ -10,7 +10,7 @@
         android:id="@+id/openThimbleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_thimble"/>
+        android:text="@string/start_game"/>
 
     <Button
         android:id="@+id/optionsButton"
