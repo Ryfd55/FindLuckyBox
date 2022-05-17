@@ -7,10 +7,10 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/openBoxButton"
+        android:id="@+id/openThimbleButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/open_box"/>
+        android:text="@string/open_thimble"/>
 
     <Button
         android:id="@+id/optionsButton"

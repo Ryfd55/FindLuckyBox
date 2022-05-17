@@ -5,11 +5,11 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Options(
-    val boxCount: Int,
+    val thimbleCount: Int,
     val isTimerEnabled: Boolean
 ) : Parcelable {
 
     companion object {
-        @JvmStatic val DEFAULT = Options(boxCount = 3, isTimerEnabled = false)
+        @JvmStatic val DEFAULT = Options(thimbleCount = 3, isTimerEnabled = false)
     }
 }

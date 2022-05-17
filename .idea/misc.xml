@@ -3,10 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/chevron_down.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/chevron_down_disabled.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/edit_text_foreground.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/form.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/ic_done.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.14" />
+        <entry key="app/src/main/res/drawable/spinner_background.xml" value="0.14" />
         <entry key="app/src/main/res/layout/activity_about.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_box.xml" value="0.23177083333333334" />
+        <entry key="app/src/main/res/layout/activity_box_selection.xml" value="0.23177083333333334" />
         <entry key="app/src/main/res/layout/activity_empty.xml" value="0.13697916666666668" />
         <entry key="app/src/main/res/layout/activity_menu.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_options.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/activity_thimble.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/activity_thimble_selection.xml" value="0.11458333333333333" />
+        <entry key="app/src/main/res/layout/item_box.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_spinner.xml" value="0.28229166666666666" />
+        <entry key="app/src/main/res/layout/item_thimble.xml" value="0.11458333333333333" />
       </map>
     </option>
   </component>

@@ -15,7 +15,7 @@ class MenuActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMenuBinding.inflate(layoutInflater).also { setContentView(it.root) }
 
-        binding.openBoxButton.setOnClickListener { onOpenBoxPressed() }
+        binding.openThimbleButton.setOnClickListener { onOpenThimblePressed() }
         binding.optionsButton.setOnClickListener { onOptionsPressed() }
         binding.aboutButton.setOnClickListener { onAboutPressed() }
         binding.exitButton.setOnClickListener { onExitPressed() }
@@ -36,9 +36,9 @@ class MenuActivity : BaseActivity() {
         }
     }
 
-    private fun onOpenBoxPressed() {
-        val intent = Intent(this, BoxSelectionActivity::class.java)
-        intent.putExtra(BoxSelectionActivity.EXTRA_OPTIONS, options)
+    private fun onOpenThimblePressed() {
+        val intent = Intent(this, ThimbleSelectionActivity::class.java)
+        intent.putExtra(ThimbleSelectionActivity.EXTRA_OPTIONS, options)
         startActivity(intent)
     }
 

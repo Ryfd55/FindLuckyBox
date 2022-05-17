@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.BoxActivity"
-            android:label="@string/box"
-            android:parentActivityName=".activity.BoxSelectionActivity" />
+            android:name=".activity.ThimbleActivity"
+            android:label="@string/thimble"
+            android:parentActivityName=".activity.ThimbleSelectionActivity" />
         <activity
             android:name=".activity.OptionsActivity"
             android:label="@string/options"
             android:parentActivityName=".activity.MenuActivity" />
         <activity
-            android:name=".activity.BoxSelectionActivity"
-            android:label="@string/select_box"
+            android:name=".activity.ThimbleSelectionActivity"
+            android:label="@string/select_thimble"
             android:parentActivityName=".activity.MenuActivity" />
         <activity
             android:name=".activity.AboutActivity"
