@@ -81,9 +81,6 @@ class ThimbleSelectionActivity : BaseActivity() {
             startActivity(intent)
         } else {
             Toast.makeText(this, "kjbkjb,j", Toast.LENGTH_SHORT).show()
-
-//            Toast.makeText(getActivity(), "This is my Toast message!",
-//                Toast.LENGTH_LONG).show();
         }
     }
 
