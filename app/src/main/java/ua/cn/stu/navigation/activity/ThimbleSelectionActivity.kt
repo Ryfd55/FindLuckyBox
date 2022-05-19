@@ -80,7 +80,10 @@ class ThimbleSelectionActivity : BaseActivity() {
             val intent = Intent(this, ThimbleActivity::class.java)
             startActivity(intent)
         } else {
-            Toast.makeText(this, R.string.empty_thimble, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "kjbkjb,j", Toast.LENGTH_SHORT).show()
+
+//            Toast.makeText(getActivity(), "This is my Toast message!",
+//                Toast.LENGTH_LONG).show();
         }
     }
 
